@@ -4,6 +4,10 @@
 
 ## 部署
 ### 一键部署脚本
+```bash
+sudo curl -sSL https://github.com/danielchan-25/QL-Scripts/blob/main/Install.sh | sh
+```
+
 
 ### docker-compose 部署
 
