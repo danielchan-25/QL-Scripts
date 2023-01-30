@@ -1,0 +1,13 @@
+version: '2.9.0'
+services:
+  ql:
+    image: whyour/qinglong:latest
+    container_name: ql
+    network_mode: bridge
+    restart: always
+    volumes:
+      - "./ql/config:/ql/config"
+      - "./ql/log:/ql/log"
+      - "./ql/db:/ql/db"
+    ports:
+      - "5700:5700"
